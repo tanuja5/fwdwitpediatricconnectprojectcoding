@@ -1,0 +1,103 @@
+/* Styles for header, main, footer, and other elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+/* Styles for additional sections */
+#book-appointment-now,
+#our-services,
+#leading-providers,
+#customer-testimonials {
+    padding: 20px;
+}
+
+#book-appointment-now h2,
+#our-services h2,
+#leading-providers h2,
+#customer-testimonials h2 {
+    color: #333;
+}
+
+#book-appointment-now p,
+#our-services p,
+#leading-providers p,
+#customer-testimonials p {
+    margin-bottom: 10px;
+}
+
+#our-services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#our-services ul li {
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+} 
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contact,
+footer .help-center {
+    display: inline-block;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    footer .contact,
+    footer .help-center {
+        width: 100%;
+    }
+}
